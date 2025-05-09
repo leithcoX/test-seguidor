@@ -62,5 +62,5 @@ jobs:
       with:
         branch: main
         folder: Generated
-        repository-name: INTI-CMNB/kibot_variants_arduprog_site
+        repository-name: leithcoX/test-seguidor
         token: ${{ secrets.TOKEN }}
