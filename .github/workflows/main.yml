@@ -63,4 +63,4 @@ jobs:
         branch: main
         folder: Generated
         repository-name: leithcoX/test-seguidor
-        token: ${{ secrets.TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
