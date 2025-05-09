@@ -5,13 +5,13 @@ name: "Variants demo using --quick-start"
 on:
   push:
     paths:
-      - 'modulo_*/*.kicad_sch'
-      - 'modulo_*/*.kicad_pcb'
+      - 'modulo_puente_h/*.kicad_sch'
+      - 'modulo_puente_h/*.kicad_pcb'
       - '.github/workflows/kibot_quick_start.yml'
   pull_request:
     paths:
-      - 'modulo_*/*.kicad_sch'
-      - 'modulo_*/*.kicad_pcb'
+      - 'modulo_puente_h/*.kicad_sch'
+      - 'modulo_puente_h/*.kicad_pcb'
       - '.github/workflows/kibot_quick_start.yml'
   repository_dispatch:
     types: [run_qs]
