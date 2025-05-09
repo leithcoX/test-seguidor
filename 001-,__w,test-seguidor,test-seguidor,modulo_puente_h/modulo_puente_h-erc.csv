@@ -1,0 +1,2 @@
+"Sheet","Severity","Excluded","Type","Description","Details"
+"/ (modulo_puente_h.kicad_sch)","warning","False","footprint_link_issues","Footprint 'TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical' not found in library 'Package_TO_SOT_THT'.","@(0.5715 mm, 0.9779 mm): Symbol U1 [L298N]"

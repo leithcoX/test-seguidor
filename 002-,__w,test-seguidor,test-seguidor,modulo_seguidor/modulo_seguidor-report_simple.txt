@@ -1,0 +1,72 @@
+PCB Specifications:
+Size:
+
+- 100.0x50.0 mm
+
+Class: 4A
+
+Track width: >= 0.4 mm
+
+Insulation distance: >= 0.2 mm
+
+Minimum drill size: >= 0.9 mm (finished metalized hole: 0.8 mm)
+
+Minimum slot width: >= N/A mm
+
+Ring collar: >= 0.22 mm
+
+
+Stackup:
+
+| Name                 | Type                 | Color            | Thickness [µm]| Material        | Er        | Loss tan     |
+|----------------------|----------------------|------------------|---------------|-----------------|-----------|--------------|
+| F.SilkS              | Top Silk Screen      |                  |               |                 |           |              |
+| F.Paste              | Top Solder Paste     |                  |               |                 |           |              |
+| F.Mask               | Top Solder Mask      |                  |            10 |                 |           |              |
+| F.Cu                 | copper               |                  |            35 |                 |           |              |
+| dielectric 1         | prepreg              |                  |           100 | FR4             |       4.5 |        0.020 |
+| In1.Cu               | copper               |                  |            35 |                 |           |              |
+| dielectric 2         | core                 |                  |           112 | FR4             |       4.5 |        0.020 |
+| In2.Cu               | copper               |                  |            35 |                 |           |              |
+| dielectric 3         | prepreg              |                  |           100 | FR4             |       4.5 |        0.020 |
+| In3.Cu               | copper               |                  |            35 |                 |           |              |
+| dielectric 4         | core                 |                  |           112 | FR4             |       4.5 |        0.020 |
+| In4.Cu               | copper               |                  |            35 |                 |           |              |
+| dielectric 5         | prepreg              |                  |           100 | FR4             |       4.5 |        0.020 |
+| In5.Cu               | copper               |                  |            35 |                 |           |              |
+| dielectric 6         | core                 |                  |           112 | FR4             |       4.5 |        0.020 |
+| In6.Cu               | copper               |                  |            35 |                 |           |              |
+| dielectric 7         | prepreg              |                  |           100 | FR4             |       4.5 |        0.020 |
+| In7.Cu               | copper               |                  |            35 |                 |           |              |
+| dielectric 8         | core                 |                  |           112 | FR4             |       4.5 |        0.020 |
+| In8.Cu               | copper               |                  |            35 |                 |           |              |
+| dielectric 9         | prepreg              |                  |           100 | FR4             |       4.5 |        0.020 |
+| In9.Cu               | copper               |                  |            35 |                 |           |              |
+| dielectric 10        | core                 |                  |           112 | FR4             |       4.5 |        0.020 |
+| In10.Cu              | copper               |                  |            35 |                 |           |              |
+| dielectric 11        | prepreg              |                  |           100 | FR4             |       4.5 |        0.020 |
+| B.Cu                 | copper               |                  |            35 |                 |           |              |
+| B.Mask               | Bottom Solder Mask   |                  |            10 |                 |           |              |
+| B.Paste              | Bottom Solder Paste  |                  |               |                 |           |              |
+| B.SilkS              | Bottom Silk Screen   |                  |               |                 |           |              |
+
+Materials:
+
+- FR4, 1.6 mm
+- None
+- 12 layers
+- 35 µm copper thickness
+
+Solder mask:
+
+- TOP / BOTTOM
+- Green
+
+Marking:
+
+- TOP / BOTTOM screen printing
+- Silk: White
+
+Other markings:
+
+- ROHS / UL / Date - Yes if available

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KiCad_BOM PCB_Variant="default" KiCad_Version="9.0.1+1" Component_Groups="10" Component_Count="12 (0 SMD/ 12 THT)" Fitted_Components="12 (0 SMD/ 12 THT)" Number_of_PCBs="1" Total_Components="12" Schematic_Source="modulo_seguidor" Schematic_Revision="" Schematic_Date="2025-05-09_02-29-26" encoding="utf-8">
+	<group Row="1" Description="Socket for Arduino Nano" Part="Arduino_Nano_Socket" References="A2" Value="Arduino_Nano_Socket" Footprint="Arduino_Nano_Socket" Quantity_Per_PCB="1" Status=" " Datasheet="https://docs.arduino.cc/hardware/nano"/>
+	<group Row="2" Description="Unpolarized capacitor" Part="C" References="C1 C2" Value="1u" Footprint="C_Disc_D7.0mm_W2.5mm_P5.00mm" Quantity_Per_PCB="2" Status=" " Datasheet="~"/>
+	<group Row="3" Description="Light emitting diode" Part="LED" References="D1" Value="LED" Footprint="LED_D5.0mm" Quantity_Per_PCB="1" Status=" " Datasheet="~"/>
+	<group Row="4" Description="Generic connector, single row, 01x02, script generated" Part="Conn_01x02_Socket" References="J1" Value="Battery" Footprint="Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" Quantity_Per_PCB="1" Status=" " Datasheet="~"/>
+	<group Row="5" Description="Generic connector, single row, 01x03, script generated" Part="Conn_01x03_Pin" References="J4 J5" Value="Motor Izquierdo" Footprint="PinHeader_1x03_P2.54mm_Vertical" Quantity_Per_PCB="2" Status=" " Datasheet="~"/>
+	<group Row="6" Description="Generic connector, single row, 01x08, script generated" Part="Conn_01x08_Pin" References="J6" Value="puerto sensores" Footprint="PinHeader_1x08_P2.54mm_Horizontal" Quantity_Per_PCB="1" Status=" " Datasheet="~"/>
+	<group Row="7" Description="Resistor, US symbol" Part="R_US" References="R2" Value="330" Footprint="R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" Quantity_Per_PCB="1" Status=" " Datasheet="~"/>
+	<group Row="8" Description="Resistor, US symbol" Part="R_US" References="R1" Value="1k" Footprint="R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" Quantity_Per_PCB="1" Status=" " Datasheet="~"/>
+	<group Row="9" Description="Push button switch, generic, two pins" Part="SW_Push" References="SW1" Value="SW_Push" Footprint="SW_PUSH_6mm" Quantity_Per_PCB="1" Status=" " Datasheet="~"/>
+	<group Row="10" Description="Positive 1A 35V Linear Regulator, Fixed Output 6V, TO-220" Part="LM7806_TO220" References="U1" Value="LM7806_TO220" Footprint="TO-220-3_Vertical" Quantity_Per_PCB="1" Status=" " Datasheet="https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"/>
+</KiCad_BOM>

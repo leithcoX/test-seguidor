@@ -1,0 +1,732 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2025-05-09T02:35:51+0000",
+    "kicad_version": "9.0.1",
+    "schematic_parity": [
+        {
+            "description": "Value (C1) doesn't match symbol value (10u1).",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 77.25
+                    },
+                    "uuid": "b27153dd-118e-459b-bcc2-9c76df7e8c2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        }
+    ],
+    "source": "modulo_sensor.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu",
+                    "pos": {
+                        "x": 35.499798,
+                        "y": 42.002639
+                    },
+                    "uuid": "de1ed2cb-7eb5-4c6e-a11c-79c7fa312b22"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/Sensor3] on B.Cu, length 6.3498 mm",
+                    "pos": {
+                        "x": 87.5,
+                        "y": 70.0
+                    },
+                    "uuid": "eec86bc1-6e64-453a-8203-5275564fb011"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.4793 mm)",
+            "items": [
+                {
+                    "description": "Track [/Sensor4] on B.Cu, length 20.5300 mm",
+                    "pos": {
+                        "x": 80.0,
+                        "y": 72.5
+                    },
+                    "uuid": "277bc4e2-b7bb-4dcb-b9c4-7c212b2ff1f4"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.1605 mm)",
+            "items": [
+                {
+                    "description": "Track [/Sensor4] on B.Cu, length 2.8800 mm",
+                    "pos": {
+                        "x": 107.879983,
+                        "y": 65.15
+                    },
+                    "uuid": "546b6a3a-73da-4c66-98f8-5c1af5a008e2"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.4793 mm)",
+            "items": [
+                {
+                    "description": "Track [/Sensor4] on B.Cu, length 2.9910 mm",
+                    "pos": {
+                        "x": 105.764992,
+                        "y": 67.264992
+                    },
+                    "uuid": "58c7e4ba-1202-4464-917a-bc5badecce5f"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.4793 mm)",
+            "items": [
+                {
+                    "description": "Track [/Sensor4] on B.Cu, length 7.4034 mm",
+                    "pos": {
+                        "x": 100.529983,
+                        "y": 72.5
+                    },
+                    "uuid": "68a36c40-c58f-4b69-9074-cc4c853dd3b0"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.1605 mm)",
+            "items": [
+                {
+                    "description": "Track [/Sensor4] on B.Cu, length 1.2021 mm",
+                    "pos": {
+                        "x": 110.759983,
+                        "y": 65.15
+                    },
+                    "uuid": "ceb6f8e7-3328-477e-ac13-f1fb200480f0"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 44.0
+                    },
+                    "uuid": "0b70f513-dbb2-45ab-98c8-e20fc24da5da"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 53.609983,
+                        "y": 56.34
+                    },
+                    "uuid": "151d2bf8-cac1-45ef-a29b-1e5cc2657d53"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 88.374983,
+                        "y": 81.94
+                    },
+                    "uuid": "b4c7bfb6-498c-4936-b03f-cb4f790de418"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 53.609983,
+                        "y": 56.34
+                    },
+                    "uuid": "151d2bf8-cac1-45ef-a29b-1e5cc2657d53"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 90.974983,
+                        "y": 81.94
+                    },
+                    "uuid": "ca434e86-7a5c-48d7-a20e-02ece535bb37"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 53.609983,
+                        "y": 56.34
+                    },
+                    "uuid": "151d2bf8-cac1-45ef-a29b-1e5cc2657d53"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 93.514983,
+                        "y": 81.94
+                    },
+                    "uuid": "9b7337e3-f3d0-42a5-8583-f716347737fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 53.609983,
+                        "y": 56.34
+                    },
+                    "uuid": "151d2bf8-cac1-45ef-a29b-1e5cc2657d53"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 96.054983,
+                        "y": 81.94
+                    },
+                    "uuid": "8b0e473a-99f0-47db-9f6c-8531d8e447dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 53.609983,
+                        "y": 56.34
+                    },
+                    "uuid": "151d2bf8-cac1-45ef-a29b-1e5cc2657d53"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 98.594983,
+                        "y": 81.94
+                    },
+                    "uuid": "8ea05955-e396-40c1-b1e3-417ad116c513"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 53.609983,
+                        "y": 56.34
+                    },
+                    "uuid": "151d2bf8-cac1-45ef-a29b-1e5cc2657d53"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 101.134983,
+                        "y": 81.94
+                    },
+                    "uuid": "7fe53c71-3d59-40a9-ab45-1fea4c27d30f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 53.609983,
+                        "y": 56.34
+                    },
+                    "uuid": "151d2bf8-cac1-45ef-a29b-1e5cc2657d53"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 103.674983,
+                        "y": 81.94
+                    },
+                    "uuid": "67b2d9c8-976e-4c51-a972-71f1d09abca2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 53.609983,
+                        "y": 56.34
+                    },
+                    "uuid": "151d2bf8-cac1-45ef-a29b-1e5cc2657d53"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.214983,
+                        "y": 81.94
+                    },
+                    "uuid": "3f1bd293-5ed3-4e9c-a020-5a9d9609c9ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 53.609983,
+                        "y": 56.34
+                    },
+                    "uuid": "151d2bf8-cac1-45ef-a29b-1e5cc2657d53"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.814983,
+                        "y": 84.6
+                    },
+                    "uuid": "523291eb-dc21-4eec-945b-59b93f91d94f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x08_P2.54mm_Horizontal' does not match copy in library 'Connector_PinHeader_2.54mm'.",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 107.484983,
+                        "y": 80.5
+                    },
+                    "uuid": "171e1d12-b9ab-43ae-a9ea-c2bb98d4a0d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 74.609983,
+                        "y": 69.2
+                    },
+                    "uuid": "56feb7e7-872f-4dba-9ec8-64d57ed73e13"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D3",
+                    "pos": {
+                        "x": 90.609983,
+                        "y": 69.2
+                    },
+                    "uuid": "64d9883a-990b-4288-85a2-aee492fa50e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D6",
+                    "pos": {
+                        "x": 138.609983,
+                        "y": 69.2
+                    },
+                    "uuid": "6b72904a-65f1-4aa1-8b6f-2299ed7aff0e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 106.609983,
+                        "y": 69.2
+                    },
+                    "uuid": "795e067b-f736-4ea3-8391-88130284bb99"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'DIP-14_W7.62mm_Socket' does not match copy in library 'Package_DIP'.",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 80.0,
+                        "y": 72.5
+                    },
+                    "uuid": "b01d4230-b547-4ada-a448-1e2dee60e9e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_Disc_D3.0mm_W1.6mm_P2.50mm' does not match copy in library 'Capacitor_THT'.",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 77.25
+                    },
+                    "uuid": "b27153dd-118e-459b-bcc2-9c76df7e8c2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D5",
+                    "pos": {
+                        "x": 122.609983,
+                        "y": 69.2
+                    },
+                    "uuid": "d55d5d81-c71e-4fc3-b62e-69cb83e71f99"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 58.609983,
+                        "y": 69.2
+                    },
+                    "uuid": "f41f7d6d-6969-424e-9ab1-2dccb536bc1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TCRT5000'.",
+            "items": [
+                {
+                    "description": "Footprint Sensor3",
+                    "pos": {
+                        "x": 90.609983,
+                        "y": 62.4
+                    },
+                    "uuid": "1bb3963f-d123-4418-8b3a-0ea1012a6ed9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TCRT5000'.",
+            "items": [
+                {
+                    "description": "Footprint Sensor2",
+                    "pos": {
+                        "x": 74.609983,
+                        "y": 62.4
+                    },
+                    "uuid": "1d4b141a-03ff-41ee-9bf6-2b91a461574d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TCRT5000'.",
+            "items": [
+                {
+                    "description": "Footprint Sensor6",
+                    "pos": {
+                        "x": 138.609983,
+                        "y": 62.4
+                    },
+                    "uuid": "3eec667a-d2fe-43d3-8d24-3ccb1d682e00"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TCRT5000'.",
+            "items": [
+                {
+                    "description": "Footprint Sensor5",
+                    "pos": {
+                        "x": 122.609983,
+                        "y": 62.4
+                    },
+                    "uuid": "a5a0fe18-6d61-4901-aeb7-1b2b196ad798"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TCRT5000'.",
+            "items": [
+                {
+                    "description": "Footprint Sensor1",
+                    "pos": {
+                        "x": 58.609983,
+                        "y": 62.4
+                    },
+                    "uuid": "f7de4741-0158-4565-991e-ba73b3c1624f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TCRT5000'.",
+            "items": [
+                {
+                    "description": "Footprint Sensor4",
+                    "pos": {
+                        "x": 106.609983,
+                        "y": 62.4
+                    },
+                    "uuid": "fe94b997-a90b-4997-b9f2-cedfe6b8dc0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

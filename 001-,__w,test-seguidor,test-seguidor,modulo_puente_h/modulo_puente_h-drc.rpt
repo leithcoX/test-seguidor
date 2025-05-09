@@ -1,0 +1,16 @@
+** Drc report for modulo_puente_h.kicad_pcb **
+** Created on 2025-05-09T02:29:30+0000 **
+
+** Found 2 DRC violations **
+[lib_footprint_issues]: Footprint 'TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical' not found in library 'Package_TO_SOT_THT'.
+    ; warning
+    @(63.08 mm, 75.35 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x07_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(109.0 mm, 76.625 mm): Footprint J1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

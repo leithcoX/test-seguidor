@@ -1,0 +1,8 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"C1,C2","100nF","~","C_Disc_D7.0mm_W2.5mm_P5.00mm","2",""
+"D1,D2,D3,D4,D5,D6,D7,D8","D","~","D_DO-41_SOD81_P7.62mm_Horizontal","8",""
+"J1","Conn_01x07_Pin","~","PinHeader_1x07_P2.54mm_Vertical","1",""
+"M1","Motor_IZQ","~","R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical","1",""
+"M2","Motor_DER","~","R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical","1",""
+"R1,R2","R_US","~","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","2",""
+"U1","L298N","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf","TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical","1",""

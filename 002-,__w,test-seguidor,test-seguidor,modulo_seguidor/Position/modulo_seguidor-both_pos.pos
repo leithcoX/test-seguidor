@@ -1,0 +1,18 @@
+### Module positions - created on Fri 09 May 2025 02:35:18  ###
+### Printed by KiBot
+## Unit = mm, Angle = deg.
+## Side : both
+# Ref   Val                   Package                                             PosX       PosY       Rot        Side
+A2      Arduino_Nano_Socket   Arduino_Nano_Socket                                 92.7100    -71.1200   -90.0000   top 
+C1      1u                    C_Disc_D7.0mm_W2.5mm_P5.00mm                        91.4400    -91.4400   90.0000    top 
+C2      1u                    C_Disc_D7.0mm_W2.5mm_P5.00mm                        111.7600   -86.3600   -90.0000   top 
+D1      LED                   LED_D5.0mm                                          121.9200   -86.3600   90.0000    top 
+J1      Battery               Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical      81.2800    -86.3600   -90.0000   top 
+J4      Motor Izquierdo       PinHeader_1x03_P2.54mm_Vertical                     86.3600    -68.5800   -90.0000   top 
+J5      Motor Derecho         PinHeader_1x03_P2.54mm_Vertical                     86.3600    -73.6600   -90.0000   top 
+J6      puerto sensores       PinHeader_1x08_P2.54mm_Horizontal                   142.2400   -66.0400   0.0000     top 
+R1      1k                    R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal   106.5693   -58.2629   0.0000     top 
+R2      330                   R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal   129.5400   -88.9025   0.0000     top 
+SW1     SW_Push               SW_PUSH_6mm                                         88.3739    -63.1953   180.0000   top 
+U1      LM7806_TO220          TO-220-3_Vertical                                   104.1400   -88.9000   90.0000    top 
+## End

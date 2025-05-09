@@ -1,0 +1,4 @@
+"Sheet","Severity","Excluded","Type","Description","Details"
+"/ (modulo_seguidor.kicad_sch)","warning","False","lib_symbol_mismatch","Symbol 'LED' doesn't match copy in library 'Device'","@(1.3335 mm, 0.6223 mm): Symbol D1 [LED]"
+"/ (modulo_seguidor.kicad_sch)","warning","False","footprint_link_issues","The current configuration does not include the footprint library 'PCM_arduino-library'.","@(1.6256 mm, 0.7493 mm): Symbol A2 [Arduino_Nano_Socket]"
+"/ (modulo_seguidor.kicad_sch)","warning","False","lib_symbol_issues","The current configuration does not include the symbol library 'PCM_arduino-library'","@(1.6256 mm, 0.7493 mm): Symbol A2 [Arduino_Nano_Socket]"

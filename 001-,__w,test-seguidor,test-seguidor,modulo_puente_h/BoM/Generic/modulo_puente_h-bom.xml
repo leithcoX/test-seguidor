@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KiCad_BOM PCB_Variant="default" KiCad_Version="9.0.1+1" Component_Groups="7" Component_Count="16 (2 SMD/ 14 THT)" Fitted_Components="16 (2 SMD/ 14 THT)" Number_of_PCBs="1" Total_Components="16" Schematic_Source="modulo_puente_h" Schematic_Revision="" Schematic_Date="2025-05-09_02-29-26" encoding="utf-8">
+	<group Row="1" Description="Unpolarized capacitor, small symbol" Part="C_Small" References="C1 C2" Value="100nF" Footprint="C_Disc_D7.0mm_W2.5mm_P5.00mm" Quantity_Per_PCB="2" Status=" " Datasheet="~" Sim.Device="" Sim.Pins=""/>
+	<group Row="2" Description="Diode" Part="D" References="D1 D2 D3 D4 D5 D6 D7 D8" Value="D" Footprint="D_DO-41_SOD81_P7.62mm_Horizontal" Quantity_Per_PCB="8" Status=" " Datasheet="~" Sim.Device="D" Sim.Pins="1=K 2=A"/>
+	<group Row="3" Description="Generic connector, single row, 01x07, script generated" Part="Conn_01x07_Pin" References="J1" Value="Conn_01x07_Pin" Footprint="PinHeader_1x07_P2.54mm_Vertical" Quantity_Per_PCB="1" Status=" " Datasheet="~" Sim.Device="" Sim.Pins=""/>
+	<group Row="4" Description="DC Motor" Part="Motor_DC" References="M2" Value="Motor_DER" Footprint="R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" Quantity_Per_PCB="1" Status=" " Datasheet="~" Sim.Device="" Sim.Pins=""/>
+	<group Row="5" Description="DC Motor" Part="Motor_DC" References="M1" Value="Motor_IZQ" Footprint="R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" Quantity_Per_PCB="1" Status=" " Datasheet="~" Sim.Device="" Sim.Pins=""/>
+	<group Row="6" Description="Resistor, US symbol" Part="R_US" References="R1 R2" Value="R_US" Footprint="R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" Quantity_Per_PCB="2" Status=" " Datasheet="~" Sim.Device="" Sim.Pins=""/>
+	<group Row="7" Description="Dual full bridge motor driver, up to 46V, 4A, Multiwatt15-V" Part="L298N" References="U1" Value="L298N" Footprint="TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical" Quantity_Per_PCB="1" Status=" " Datasheet="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf" Sim.Device="" Sim.Pins=""/>
+</KiCad_BOM>
